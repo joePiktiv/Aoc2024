@@ -6,7 +6,6 @@ public class Report
     public List<int> Increments { get; set; }
     public bool IsSafe { get; set; }
     public bool BliSafe { get; set; }
-
     public bool CheckSafe () 
     {
         var sameSign = Increments.All(i => i > 0) || Increments.All(i => i < 0);

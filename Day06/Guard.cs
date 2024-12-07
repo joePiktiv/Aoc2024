@@ -34,20 +34,14 @@ public class Guard
     public List<int[]> PlaceObs()
     {
         if (GoLower == false) return new List<int[]>();
-        var counter = 0;
         var obses = new List<int[]>();
         foreach (var pos in Distincts)
         {
             if (pos[0] == Start[0] && pos[1] == Start[1]) continue;
             var map = AddObsOnMap(pos);
             var guard = new Guard(map, false);
-            counter += guard.IsLoop ? 1 : 0;
-            if (guard.IsLoop)
-            {
-                obses.Add(pos);
-            }
+            if (guard.IsLoop) obses.Add(pos);
         }
-
         return obses;
     }
 
@@ -77,18 +71,13 @@ public class Guard
         {
             var (nextChar, nextPositon) = NextPosition();
             
-            // find the char,
             if (nextChar == '#')
             {
-                // if it is # move right of current direction
                 Direction = ChangeDirection(Direction, "right");
             }
-            // update direction 
             else
             {
-                // update position
                 Position = nextPositon;
-                // update path
                 if (Map.OnBoard(Position)) Path.Add(Position);
             } 
             var indexesOfPos = FindRepeatPos(Path, Position);
@@ -159,7 +148,6 @@ public class Guard
     {
         var value = '-';
         var position = new int[] {};
-        // Console.WriteLine("Direction "+Direction);
         switch (Direction)
         {
             case "right":
@@ -178,9 +166,6 @@ public class Guard
                 position = new int[] { Position[0] + 1, Position[1]};
                 value = Map.OnBoard(position) ? Map.GetValueOnMap(position[0], position[1]) : '-';
                 break;
-            
-            default:
-                break;
         }
         return (value, position) ;
     }
@@ -197,7 +182,6 @@ public class Guard
         var signs = new List<char> { '>', '<', '^', 'v' }  ;
         for (int i = 0; i < lines.Count; i++)
         {
-            //var line = lines[i];
             for (int j = 0; j< lines[i].Length; j++)
             {
                 var sign = map.GetValueOnMap(i,j);

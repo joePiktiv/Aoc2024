@@ -11,15 +11,9 @@ public class Calculator
         var restElements = elements.Where((element, index) => index != elements.Count - 1).ToList();
         var restOperator = operators.Where((o, index) => index != operators.Count -1).ToList();
         
-        if (lastOperator == "add")
-        {
-            var addResult = CalculateLeftToRight(restElements, restOperator) + last;
-            return addResult;
-        } else if (lastOperator == "||")
-        {
-            var addResult =long.Parse( CalculateLeftToRight(restElements, restOperator).ToString() + "" + last.ToString());
-            return addResult;
-        } else  return CalculateLeftToRight(restElements, restOperator) * last;
+        if (lastOperator == "add") return CalculateLeftToRight(restElements, restOperator) + last;
+        if (lastOperator == "||") return long.Parse( CalculateLeftToRight(restElements, restOperator).ToString() + "" + last.ToString());
+        return CalculateLeftToRight(restElements, restOperator) * last;
     }
     public static long Calculate ( List<int> elements, List<string> operators) 
     {

@@ -12,7 +12,6 @@ class Program
         Console.WriteLine(lines.Count);
         var map = new Map(lines);
         var guard = new Guard(map, true);
-        var current = guard.Position;
         Console.WriteLine("part 1 "+"distinct positions on path "+guard.Distincts.Count );
         Console.WriteLine("part 2 "+"no. of obs to create loop path "+guard.Obses.Count);
     }

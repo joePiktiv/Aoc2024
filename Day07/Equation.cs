@@ -33,7 +33,6 @@ public class Equation
             var ope = operators[i];
             factors += ope == "||" ? fac : (" " + fac);
         }
-
         var newLine = Target.ToString() + ": " + factors;
         return newLine;
     }
