@@ -27,3 +27,4 @@ C:\Users\Joe\Documents\Aoc2024\Aoc2024\Tools\obj\Debug\net6.0\refint\Tools.dll
 C:\Users\Joe\Documents\Aoc2024\Aoc2024\Tools\obj\Debug\net6.0\Tools.pdb
 C:\Users\Joe\Documents\Aoc2024\Aoc2024\Tools\obj\Debug\net6.0\Tools.genruntimeconfig.cache
 C:\Users\Joe\Documents\Aoc2024\Aoc2024\Tools\obj\Debug\net6.0\ref\Tools.dll
+C:\Users\Joe\Documents\Aoc2024\Aoc2024\Tools\obj\Debug\net6.0\Tools.sourcelink.json
