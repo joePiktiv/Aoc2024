@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\day08\\Day08.csproj": {}
+    "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Day08\\Day08.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\day08\\Day08.csproj": {
+    "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Day08\\Day08.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\day08\\Day08.csproj",
+        "projectUniqueName": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Day08\\Day08.csproj",
         "projectName": "Day08",
-        "projectPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\day08\\Day08.csproj",
+        "projectPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Day08\\Day08.csproj",
         "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\day08\\obj\\",
+        "outputPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Day08\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,11 +36,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -94,11 +89,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
