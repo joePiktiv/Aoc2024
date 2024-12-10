@@ -12,7 +12,17 @@ public class Map
         Lines = lines;
         Row = Lines.Count;
         Col = Lines[0].Length;
-    } 
+    }
+
+    public List<char> GetColValues(int col)
+    {
+        return Lines.Select(l => l[col]).ToList();
+    }
+
+    public List<char> GetRowValues(int row)
+    {
+        return Lines[row].ToCharArray().ToList();
+    }
 
     public char GetValueOnMap (int r, int c)
     {
@@ -48,6 +58,16 @@ public class Map
         }
 
         return false;
+    }
+    public void PrintPaths(List<List<int[]>> paths)
+    {
+        paths.ForEach(path => PrintPath(path));
+    }
+
+    public void PrintPath(List<int[]> path)
+    {
+        Console.WriteLine();
+        path.ForEach(pos => Console.Write($"({pos[0]},{pos[1]})")); 
     }
 
     public bool SamePosition(int[]? first, int[] second)

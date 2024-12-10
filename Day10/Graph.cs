@@ -31,11 +31,7 @@ public class Graph
 
     }
 
-    public void PrintPaths(List<List<int[]>> paths)
-    {
-        paths.ForEach(path => { path.ForEach(pos => Console.Write($"({pos[0]},{pos[1]})")); Console.WriteLine(); });
 
-    }
 
     public void Move()
     {
