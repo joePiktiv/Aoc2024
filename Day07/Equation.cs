@@ -19,7 +19,7 @@ public class Equation
         Factors = split[1].Substring(1).Split(' ').Select(f => long.Parse(f)).ToList();
         var operatorsPositions = Factors.Count - 1;
         var operatorSet = type == 1 ? new List<string> { "add", "mul" } : new List<string> { "add", "mul" , "||"};
-        Operators = Combination.GenerateCombinations(operatorsPositions, operatorSet);
+        Operators = Combination.GetCombinations(operatorsPositions, operatorSet);
         var allResults = Operators.Select(o => Calculator.CalculateLeftToRight(Factors, o)).ToList();
         IsSolved = allResults.Any(r =>r == Target);
     }
