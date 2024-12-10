@@ -14,6 +14,36 @@ public class Map
         Col = Lines[0].Length;
     }
 
+    public List<char> GetDirectionsValues(int[] pos, string? indicators)
+    {
+        var positions = GetDirectionsPositions(pos, indicators);
+        return positions.Select(p => GetValueOnMap(p)).ToList();
+    }
+
+    public List<int[]> GetDirectionsPositions(int[] pos, string? indicators)
+    {
+        var up = new int[] {pos[0] - 1, pos[1]};
+        var down = new int[] {pos[0] + 1, pos[1]};
+        var left = new int[] {pos[0] , pos[1] - 1};
+        var right = new int[] {pos[0] , pos[1] + 1};
+        var leftup = new int[] {pos[0] - 1, pos[1] - 1};
+        var rightup = new int[] {pos[0] - 1, pos[1] + 1};
+        var leftdown = new int[] {pos[0] + 1, pos[1] - 1};
+        var rightdown = new int[] {pos[0] + 1, pos[1] + 1};
+        var result = new List<int[]>();
+        indicators = indicators == null || indicators == "8" ? "+u+d+l+r-ul-ur-dl-dr" : indicators == "4" ? "+u+d+l+r" : indicators == "diagonals" ? "-ul-ur-dl-dr" : indicators;
+        if (indicators.ToLower().Contains("+u")) result.Add(up); 
+        if (indicators.ToLower().Contains("+d")) result.Add(down); 
+        if (indicators.ToLower().Contains("+l")) result.Add(left); 
+        if (indicators.ToLower().Contains("+r")) result.Add(right);
+        if (indicators.ToLower().Contains("-ul")) result.Add(leftup); 
+        if (indicators.ToLower().Contains("-ur")) result.Add(rightup); 
+        if (indicators.ToLower().Contains("-dl")) result.Add(leftdown); 
+        if (indicators.ToLower().Contains("-dr")) result.Add(rightdown);
+        return result.Where(r => OnBoard(r)).ToList();
+    }
+    
+
     public List<char> GetColValues(int col)
     {
         return Lines.Select(l => l[col]).ToList();
