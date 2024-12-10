@@ -17,6 +17,10 @@ public class Map
     public char GetValueOnMap (int r, int c)
     {
         return Lines[r][c];
+    }    
+    public char GetValueOnMap (int[] position)
+    {
+        return Lines[position[0]][position[1]];
     }
 
     public bool OnBoard (int[] p)
@@ -25,18 +29,18 @@ public class Map
         var c = p[1];
         return ((r>=0 && r<Row) && (c<Col && c >= 0));
     }
-    public static List<int[]>? RemoveDuplicates(List<int[]> input)
+    public static List<int[]>? RemoveDuplicates(IEnumerable<int[]> input)
     {
         var result = new List<int[]>();
         foreach (var point in input)
         {
-            if (ExistPoint(result, point)) continue;
+            if (ExistPointOnPath(result, point)) continue;
             result.Add(point);
         }
         return result;
     }
 
-    public static bool ExistPoint(List<int[]> result, int[] point)
+    public static bool ExistPointOnPath(List<int[]> result, int[] point)
     {
         foreach (var p in result)
         {
@@ -45,5 +49,9 @@ public class Map
 
         return false;
     }
-    
+
+    public bool SamePosition(int[]? first, int[] second)
+    {
+        return (first[0] == second[0] && first[1] == second[1]);
+    }
 }
