@@ -96,12 +96,21 @@ public class Map
 
     public void PrintPath(List<int[]> path)
     {
-        Console.WriteLine();
         path.ForEach(pos => Console.Write($"({pos[0]},{pos[1]})")); 
+        Console.WriteLine();
     }
 
     public bool SamePosition(int[]? first, int[] second)
     {
         return (first[0] == second[0] && first[1] == second[1]);
+    }
+
+    public List<int[]> FindAll(char something)
+    {
+        return Enumerable.Range(0, Row)
+            .SelectMany(r => Enumerable.Range(0, Col)
+                .Select(c => new int[] { r, c }))
+            .Where(p => GetValueOnMap(p) == something)
+            .ToList(); 
     }
 }
