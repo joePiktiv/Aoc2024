@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day11\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|solutionrelative:day11\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day10\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|solutionrelative:day10\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|solutionrelative:day10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|solutionrelative:day11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day11\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|solutionrelative:day11\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEEA947-AA85-4BE6-9646-851ADDD3E352}|Day09\\Day09.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day09\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEEA947-AA85-4BE6-9646-851ADDD3E352}|Day09\\Day09.csproj|solutionrelative:day09\\disk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day10\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A18CAF-94DE-4FC0-BD4E-F6BF3DA164FF}|Day10\\Day10.csproj|solutionrelative:day10\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{972E97F6-CC86-4E43-B47C-CB98F92AB62A}|Day11\\Day11.csproj|c:\\users\\solfa\\documents\\github\\aoc2024\\day11\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day10\\Program.cs",
+              "RelativeDocumentMoniker": "Day10\\Program.cs",
+              "ToolTip": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day10\\Program.cs*",
+              "RelativeToolTip": "Day10\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:14:08.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Disk.cs",
+              "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day09\\Disk.cs",
+              "RelativeDocumentMoniker": "Day09\\Disk.cs",
+              "ToolTip": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day09\\Disk.cs",
+              "RelativeToolTip": "Day09\\Disk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:10:20.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Grid.cs",
               "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day10\\Grid.cs",
               "RelativeDocumentMoniker": "Day10\\Grid.cs",
@@ -42,25 +76,25 @@
               "RelativeToolTip": "Day10\\Grid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:55:25.943Z",
+              "WhenOpened": "2024-12-11T13:09:17.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Seed.cs",
               "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\Seed.cs",
               "RelativeDocumentMoniker": "Day11\\Seed.cs",
               "ToolTip": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\Seed.cs",
               "RelativeToolTip": "Day11\\Seed.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA2wAUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:47:12.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "test.txt",
               "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\test.txt",
               "RelativeDocumentMoniker": "Day11\\test.txt",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "simple.txt",
               "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\simple.txt",
               "RelativeDocumentMoniker": "Day11\\simple.txt",
@@ -86,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\Program.cs",
               "RelativeDocumentMoniker": "Day11\\Program.cs",
               "ToolTip": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Day11\\Program.cs",
               "RelativeToolTip": "Day11\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T20:30:55.396Z",
               "EditorCaption": ""

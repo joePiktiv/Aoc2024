@@ -14,7 +14,7 @@ public class Disk
         Length = line.Sum(c => int.Parse(c.ToString()));
         ValuesLength = line.Where((c, index) => index % 2 == 0).Sum(c => int.Parse(c.ToString()));
         Line = line;
-        Fragments = GetFragments();
+        Fragments = GetFragments()!;
         List = type == 1 ? ReverOrderFill() : FillSpacesFillx();
     }
 
@@ -34,7 +34,7 @@ public class Disk
                     var ( element,  index, found) = FindTarget(restList, space);
                     if (found)
                     {
-                        space = (short)(space - (short)element.Value.Count);
+                        space = (short)(space - (short) element!.Value.Count);
                         restList = restList.Select((e, i) =>
                         {
                             if (i != index) return e;
@@ -61,7 +61,7 @@ public class Disk
         return head;
     }
 
-    private (Fragment? last, int index, bool found) FindTarget(List<Fragment> restList, short target)
+    private static (Fragment? last, int index, bool found) FindTarget(List<Fragment> restList, short target)
     {
         for (int i = restList.Count-1; i > -1; i--)
         {
