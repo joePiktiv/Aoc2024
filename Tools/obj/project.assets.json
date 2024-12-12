@@ -8,27 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\solfa\\.nuget\\packages\\": {}
+    "C:\\Users\\Joe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Tools\\Tools.csproj",
+      "projectUniqueName": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Tools\\Tools.csproj",
       "projectName": "Tools",
-      "projectPath": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Tools\\Tools.csproj",
-      "packagesPath": "C:\\Users\\solfa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\solfa\\Documents\\GitHub\\Aoc2024\\Tools\\obj\\",
+      "projectPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Tools\\Tools.csproj",
+      "packagesPath": "C:\\Users\\Joe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joe\\Documents\\Aoc2024\\Aoc2024\\Tools\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\solfa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Joe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
