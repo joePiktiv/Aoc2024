@@ -100,6 +100,14 @@ public class Map
         Console.WriteLine();
     }
 
+    public void PrintMap()
+    {
+        foreach (var line in Lines)
+        {
+            Console.WriteLine(line);
+        }
+    }
+
     public bool SamePosition(int[]? first, int[] second)
     {
         return (first[0] == second[0] && first[1] == second[1]);
