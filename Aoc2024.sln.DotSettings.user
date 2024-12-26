@@ -4,4 +4,5 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=19486F15_002D74EE_002D4A44_002D9E5B_002D6AED8F40B772_002Ff_003AHall_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=59482396_002DFE18_002D4E6E_002DBAAA_002D9729C80C0608_002Ff_003AEquation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=8AD846FE_002D39B7_002D4446_002D817B_002D594A712BAF48_002Ff_003ATwoPaths_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=CDD7DE6D_002D8E5B_002D44CF_002DAE8B_002D82195BC333E4_002Ff_003AGuard_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=CDD7DE6D_002D8E5B_002D44CF_002DAE8B_002D82195BC333E4_002Ff_003AGuard_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EBD07167_002D0AA0_002D43DE_002DBE15_002D7A5BBF8B48F6_002Ff_003AProgram_002Ecs/@EntryIndexedValue">ForceIncluded</s:String></wpf:ResourceDictionary>
